@@ -1,0 +1,99 @@
+{
+  "resources/js/images/slider/portrait-successful-mid-adult-doctor-with-crossed-arms.jpg": {
+    "file": "assets/portrait-successful-mid-adult-doctor-with-crossed-arms.532d5a16.jpg",
+    "src": "resources/js/images/slider/portrait-successful-mid-adult-doctor-with-crossed-arms.jpg"
+  },
+  "resources/js/images/slider/young-asian-female-dentist-white-coat-posing-clinic-equipment.jpg": {
+    "file": "assets/young-asian-female-dentist-white-coat-posing-clinic-equipment.8d8593bb.jpg",
+    "src": "resources/js/images/slider/young-asian-female-dentist-white-coat-posing-clinic-equipment.jpg"
+  },
+  "resources/js/images/slider/doctor-s-hand-holding-stethoscope-closeup.jpg": {
+    "file": "assets/doctor-s-hand-holding-stethoscope-closeup.c71bd5e4.jpg",
+    "src": "resources/js/images/slider/doctor-s-hand-holding-stethoscope-closeup.jpg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.ac899b95.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Login.vue",
+      "resources/js/Pages/Dashboard.vue",
+      "resources/js/Pages/Chat.vue",
+      "resources/js/Pages/NotFound.vue"
+    ],
+    "css": [
+      "assets/app.47fd3247.css"
+    ]
+  },
+  "resources/js/Pages/Login.vue": {
+    "file": "assets/Login.4f115aab.js",
+    "src": "resources/js/Pages/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_API.a18552d3.js"
+    ]
+  },
+  "_API.a18552d3.js": {
+    "file": "assets/API.a18552d3.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Dashboard.vue": {
+    "file": "assets/Dashboard.7a5458df.js",
+    "src": "resources/js/Pages/Dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_TheNavbar.f6af3bb4.js",
+      "resources/js/app.js",
+      "_API.a18552d3.js"
+    ],
+    "css": [
+      "assets/Dashboard.dc3ddbac.css"
+    ],
+    "assets": [
+      "assets/portrait-successful-mid-adult-doctor-with-crossed-arms.532d5a16.jpg",
+      "assets/young-asian-female-dentist-white-coat-posing-clinic-equipment.8d8593bb.jpg",
+      "assets/doctor-s-hand-holding-stethoscope-closeup.c71bd5e4.jpg"
+    ]
+  },
+  "_TheNavbar.f6af3bb4.js": {
+    "file": "assets/TheNavbar.f6af3bb4.js",
+    "imports": [
+      "_API.a18552d3.js",
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Chat.vue": {
+    "file": "assets/Chat.cb1a5e7f.js",
+    "src": "resources/js/Pages/Chat.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_API.a18552d3.js",
+      "_TheNavbar.f6af3bb4.js"
+    ]
+  },
+  "resources/js/Pages/NotFound.vue": {
+    "file": "assets/NotFound.c45e43ba.js",
+    "src": "resources/js/Pages/NotFound.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Dashboard.css": {
+    "file": "assets/Dashboard.dc3ddbac.css",
+    "src": "resources/js/Pages/Dashboard.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.a8079db9.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.47fd3247.css",
+    "src": "resources/js/app.css"
+  }
+}

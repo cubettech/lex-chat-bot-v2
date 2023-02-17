@@ -1,0 +1,1 @@
+import{i as o}from"./app.ac899b95.js";const r=o.create({baseURL:"http://54.237.127.131/api",headers:{"Content-Type":"application/json",Accept:"application/json"},withCredentials:!0,timeout:5e3});r.interceptors.request.use(e=>{const t=localStorage.getItem("token");return t&&(e.headers.Authorization=`Bearer ${t}`),e},e=>{Promise.reject(e)});export{r as A};
